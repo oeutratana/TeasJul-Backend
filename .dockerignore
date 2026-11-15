@@ -1,0 +1,19 @@
+# Keep the build context small and free of secrets/local artifacts.
+target/
+.git/
+.gitignore
+.gitattributes
+.env
+*.env
+
+# Logs and test output
+*.log
+testresults.txt
+cp-test/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# Required by the build and therefore NOT ignored: pom.xml, src/

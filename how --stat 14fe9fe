@@ -1,0 +1,28 @@
+*   [33m14fe9fe[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdev[m[33m)[m fix conflig
+[31m|[m[32m\[m  
+[31m|[m * [33md4645bc[m[33m ([m[1;31morigin/feature/contract-tenants-module[m[33m, [m[1;32mfeature/contract-tenants-module[m[33m)[m add V21, v22
+* [32m|[m   [33m2874c9c[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/dev[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m fix contract conflix
+[33m|[m[34m\[m [32m\[m  
+[33m|[m * [32m|[m [33m89d691d[m[33m ([m[1;31morigin/feature/rental-contract-management[m[33m)[m feat: add rental_contracts and contract_tenants module
+[33m|[m [32m|[m[32m/[m  
+* [32m|[m [33m3bd11dc[m fix cofig
+* [32m|[m [33m47fb512[m Resolve merge conflicts
+* [32m|[m   [33m0a504d9[m Merge feature/amenities into dev
+[35m|[m[36m\[m [32m\[m  
+[35m|[m * [32m|[m [33me3717fd[m[33m ([m[1;31morigin/feature/amenities[m[33m)[m feat: add amenities management
+[35m|[m [32m|[m[32m/[m  
+* [32m|[m [33meb8409a[m[33m ([m[1;31morigin/feature/maintaince-module[m[33m, [m[1;32mfeature/maintaince-module[m[33m)[m add feature/maintained-module
+* [32m|[m   [33mbd1b18b[m Merge remote-tracking branch 'origin/feature/room-management'nto dev
+[1;31m|[m[1;32m\[m [32m\[m  
+[1;31m|[m * [32m|[m [33m7dfa285[m[33m ([m[1;31morigin/feature/room-management[m[33m)[m feat: room and room-type
+[1;31m|[m [32m|[m[32m/[m  
+* [32m|[m   [33mfd43606[m Merge branch 'tenent-module' into dev
+[32m|[m[1;34m\[m [32m\[m  
+[32m|[m [1;34m|[m[32m/[m  
+[32m|[m[32m/[m[1;34m|[m   
+[32m|[m * [33mf79f3af[m[33m ([m[1;31morigin/tenent-module[m[33m, [m[1;32mtenent-module[m[33m)[m make tenent-module,maintenace-category
+* [1;34m|[m [33mfbcb6c4[m[33m ([m[1;31morigin/setup-flyway[m[33m, [m[1;32msetup-flyway[m[33m)[m fix migration role,user-role,role-permissions,permission
+[1;34m|[m[1;34m/[m  
+* [33m1ba5d0e[m setup-flyway user,houes,role,permission,role-permission,user-role
+* [33m3783254[m connect with the database
+* [33mdea023b[m first commit

@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS room_types (
+    id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    owner_id BIGINT UNSIGNED NOT NULL,
+    name VARCHAR(100) NOT NULL,
+    code VARCHAR(50) NOT NULL UNIQUE,
+    description TEXT,
+    capacity INT NOT NULL DEFAULT 1,
+    default_rent DECIMAL(12, 2) NOT NULL DEFAULT 0.00,
+    default_deposit DECIMAL(12, 2) NOT NULL DEFAULT 0.00,
+    status ENUM('ACTIVE', 'INACTIVE') NOT NULL DEFAULT 'ACTIVE',
+    created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+
+    PRIMARY KEY (id),
+
+    INDEX idx_room_types_owner_id (owner_id),
+    INDEX idx_room_types_code (code)
+
+) ENGINE=InnoDB
+  DEFAULT CHARSET=utf8mb4
+  COLLATE=utf8mb4_unicode_ci;
